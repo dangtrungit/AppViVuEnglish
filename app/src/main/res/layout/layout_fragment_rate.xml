@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/btnrateapp"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/colorGreen"
+        android:text="Rate App"
+        android:textSize="@dimen/sizesmallone"
+        android:textColor="@color/colorWhite"
+        android:padding="8dp"
+        android:layout_margin="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/ic_star_rate_white_18dp"/>
+
+</LinearLayout>

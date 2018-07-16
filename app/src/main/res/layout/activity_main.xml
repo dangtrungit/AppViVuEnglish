@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    android:gravity="center"
+    android:padding="@dimen/sizesmall">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginBottom="20dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ideabig002" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="1"
+            android:textSize="@dimen/sizestylefontsmall"
+            android:textStyle="bold"
+            android:textColor="@color/colorGreenDark"
+            android:text="@string/helloyou"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_weight="1"
+            android:textSize="@dimen/sizestylefontmedium"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlackGreen"
+            android:text="@string/app_namescreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txversion"
+            android:gravity="bottom"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:textStyle="italic"
+            android:textColor="@color/colorBlackGreen"
+            android:text="Version: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/progressbarhello"
+        android:indeterminateTint="@color/colorGreenDark"
+        android:layout_marginTop="@dimen/sizesmallone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

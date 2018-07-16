@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/imagepractice"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--layout 0-->
+    <LinearLayout
+        android:visibility="gone"
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:id="@+id/lnpractice0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorGreenTrans">
+        <LinearLayout
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="40sp"
+                android:textColor="@color/colorWhite"
+                android:visibility="gone"
+                android:text="nn"
+                android:id="@+id/txvngonnguchinh0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_margin="10dp"
+                android:id="@+id/imcheckbox0"
+                android:visibility="gone"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="@drawable/custom_button"
+                android:src="@drawable/ic_check" />
+        </LinearLayout>
+
+            <TextView
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:textColor="@color/colorWhite"
+                android:text="nn"
+                android:id="@+id/txvphiendich0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        <TextView
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:id="@+id/txvkieuloaitu0"
+            android:textStyle="italic"
+            android:textColor="@color/colorWhite"
+            android:text="(dsds)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:visibility="invisible"
+            android:background="@drawable/custom_button"
+            android:id="@+id/btnthongtin0"
+            android:text="Thông tin về từ"
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:textAllCaps="false"
+            />
+        <EditText
+            android:textAlignment="center"
+            android:textColorHint="@color/colorWhite"
+            android:id="@+id/edtwrite0"
+            android:textSize="30sp"
+            android:hint="Bạn hãy điền từ tương ứng với nghĩa trên."
+            android:background="@drawable/custom_button"
+            android:layout_width="match_parent"
+            android:layout_height="120dp" />
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:visibility="gone"
+                android:textColor="@color/colorWhite"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:layout_margin="10dp"
+                android:id="@+id/txvscore0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button
+                android:textAllCaps="false"
+                android:background="@drawable/custom_button"
+                android:id="@+id/btncheck0"
+                android:text="Kiểm tra"
+                android:textSize="24sp"
+                android:layout_gravity="center"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content" />
+            <Button
+                android:textSize="24sp"
+                android:visibility="gone"
+                android:textAllCaps="false"
+                android:background="@drawable/custom_button"
+                android:id="@+id/btntieptuc0"
+                android:text="Tiếp tục"
+                android:layout_gravity="center"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <!--layout 1-->
+    <LinearLayout
+        android:visibility="gone"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:id="@+id/lnpractice1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorGreenTrans">
+        <ImageButton
+            android:id="@+id/imbtnspeak1"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:backgroundTint="@color/colorTransparent"
+            android:src="@drawable/ic_volume_up_white_24dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <LinearLayout
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="40sp"
+                android:textColor="@color/colorWhite"
+                android:visibility="gone"
+                android:text="nn"
+                android:id="@+id/txvngonnguchinh1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_margin="10dp"
+                android:id="@+id/imcheckbox1"
+                android:visibility="gone"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="@drawable/custom_button"
+                android:src="@drawable/ic_check" />
+        </LinearLayout>
+
+        <Button
+            android:layout_margin="5dp"
+            android:visibility="gone"
+            android:background="@drawable/custom_button"
+            android:id="@+id/btnthongtin1"
+            android:text="Thông tin về từ"
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:textAllCaps="false"
+            />
+        <EditText
+
+            android:textAlignment="center"
+            android:id="@+id/edtwrite1"
+            android:textStyle="normal"
+            android:textSize="30sp"
+            android:textColorHint="@color/colorWhite"
+            android:hint="Bạn hãy điền từ nghe được."
+            android:background="@drawable/custom_button"
+            android:layout_width="match_parent"
+            android:layout_height="120dp" />
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:visibility="gone"
+                android:textColor="@color/colorWhite"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:layout_margin="10dp"
+                android:id="@+id/txvscore1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button
+                android:textAllCaps="false"
+                android:background="@drawable/custom_button"
+                android:id="@+id/btncheck1"
+                android:text="Kiểm tra"
+                android:textSize="24sp"
+                android:layout_gravity="center"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content" />
+            <Button
+                android:textSize="24sp"
+                android:visibility="gone"
+                android:textAllCaps="false"
+                android:background="@drawable/custom_button"
+                android:id="@+id/btntieptuc1"
+                android:text="Tiếp tục"
+                android:layout_gravity="center"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <!--layout 2-->
+    <LinearLayout
+        android:id="@+id/lnpractice2"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorGreenTrans"
+        android:padding="20dp"
+       >
+        <LinearLayout
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/txvnnchinhpractice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ngon ngu chinh"
+                android:textColor="@color/colorWhite"
+                android:textSize="40sp" />
+
+
+            <ImageView
+                android:layout_margin="10dp"
+                android:id="@+id/imcheckbox"
+                android:visibility="gone"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="@drawable/custom_button"
+                android:src="@drawable/ic_check" />
+        </LinearLayout>
+        <TextView
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:textStyle="bold"
+            android:id="@+id/txvphiendich2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="phien dich"
+            android:textColor="@color/colorWhite"
+            android:textSize="24sp" />
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:visibility="invisible"
+            android:background="@drawable/custom_button"
+            android:id="@+id/btnthongtin"
+            android:text="Thông tin về từ"
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:textAllCaps="false"
+            />
+        <TextView
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"
+            android:text="Bạn hãy chọn nghĩa đúng."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioGroup
+
+            android:id="@+id/rdgroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:layout_margin="5dp"
+                android:textSize="24sp"
+                android:textColor="@color/colorWhite"
+                android:id="@+id/rdchose1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+
+                android:layout_margin="5dp"
+                android:textSize="24sp"
+                android:textColor="@color/colorWhite"
+                android:id="@+id/rdchose2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+
+                android:layout_margin="5dp"
+                android:textSize="24sp"
+                android:checked="false"
+                android:textColor="@color/colorWhite"
+                android:id="@+id/rdchose3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:layout_margin="5dp"
+                android:textSize="24sp"
+                android:textColor="@color/colorWhite"
+                android:id="@+id/rdchose4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:layout_margin="5dp"
+                android:textSize="24sp"
+                android:textColor="@color/colorWhite"
+                android:id="@+id/rdchose5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RadioGroup>
+
+        <TextView
+            android:visibility="invisible"
+            android:textColor="@color/colorWhite"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:layout_margin="10dp"
+            android:id="@+id/txvscore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:textAllCaps="false"
+            android:background="@drawable/custom_button"
+            android:id="@+id/btncheck"
+            android:text="Kiểm tra"
+            android:textSize="24sp"
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:textSize="24sp"
+            android:visibility="gone"
+            android:textAllCaps="false"
+            android:background="@drawable/custom_button"
+            android:id="@+id/btntieptuc"
+            android:text="Tiếp tục"
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</FrameLayout>
+
+
+

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.DrawerLayout
+    android:id="@+id/drawerlayoutmenu"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xlmns="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+        <LinearLayout
+            android:id="@+id/lncontainermenu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/imagepractice"
+            >
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbarmenu"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/colorGreen"
+                >
+            </android.support.v7.widget.Toolbar>
+<FrameLayout
+    android:id="@+id/lncontainmoremenudetail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/btnlearn"
+            android:text="@string/learn"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/colorGreen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:backgroundTint="@color/colorRed"
+            android:id="@+id/btnpractice"
+            android:textAllCaps="false"
+            android:text="@string/practice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+       <!-- <Button
+            android:backgroundTint="@color/colorOrangeLight"
+            android:id="@+id/btnsetting"
+            android:text="@string/Setting"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />-->
+        <Button
+            android:textAllCaps="false"
+            android:backgroundTint="@color/colorOrangeLight"
+            android:id="@+id/btnintroduceandguide"
+            android:text="@string/guidelearn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</FrameLayout>
+        </LinearLayout>
+        <android.support.design.widget.NavigationView
+            android:id="@+id/namenu"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            app:menu="@menu/item_drawer"
+            app:headerLayout="@layout/header_drawer_layout"
+            android:layout_width="match_parent"
+            android:layout_gravity="start"
+            android:background="@drawable/backgroundblue"
+            app:itemTextColor="@color/colorOrangeLight"
+            android:layout_height="match_parent"
+            app:itemIconTint="@color/colorOrangeLight"
+            >
+        </android.support.design.widget.NavigationView>
+</android.support.v4.widget.DrawerLayout>

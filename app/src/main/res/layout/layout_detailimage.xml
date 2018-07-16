@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tbdetailimage"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:backgroundTint="@color/colorGreen"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvdetailimage"
+        android:layout_margin="8dp"
+        android:background="@color/colorBlueDark"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

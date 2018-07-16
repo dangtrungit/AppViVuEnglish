@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sizesmall">10dp</dimen>
+    <dimen name="sizesmallone">30dp</dimen>
+    <dimen name="sizesmedium">50dp</dimen>
+    <dimen name="sizestatisticalresult">200dp</dimen>
+    <dimen name="sizestylefontsmall">20sp</dimen>
+    <dimen name="sizestylefontmedium">30sp</dimen>
+</resources>

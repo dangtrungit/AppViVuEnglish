@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorBlueDark">
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:src="@color/colorWhite">
+
+                    </de.hdodenhof.circleimageview.CircleImageView>
+
+                    <TextView
+                        android:id="@+id/txvnumvocabulary"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textColor="@color/colorGreenDark"
+                        android:textStyle="bold" />
+                </FrameLayout>
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/txvngonnguchinh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ngon "
+                        android:textStyle="bold"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="30sp" />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:paddingLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:layout_marginTop="5dp"
+                            android:layout_gravity="center"
+                            android:id="@+id/lnspeakerus"
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:text="US"
+                                android:layout_gravity="center"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorWhite"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                            <ImageButton
+                                android:id="@+id/imbtnspeakus"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@color/colorBlueDark"
+                                android:src="@drawable/ic_volume_up_white_24dp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txvphienam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="kieu"
+                android:textColor="@color/colorWhite"
+                android:textSize="15sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/txvloaitu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="phien am"
+                android:textColor="@color/colorWhite"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/txvphiendich"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="phien dich"
+                android:textStyle="bold"
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp"
+                 />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerlistlessondetaillearn"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:background="@color/colorGreen"
+                android:padding="4dp">
+
+            </android.support.v7.widget.RecyclerView>
+
+            <View
+                android:layout_margin="8dp"
+                android:background="@color/colorWhite"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:id="@+id/txvexample1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:textColor="@color/colorWhite"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <ImageButton
+                        android:layout_weight="1"
+                        android:id="@+id/btnspeakex1"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+                        android:background="@color/colorBlueDark"
+                        android:src="@drawable/ic_volume_up_white_24dp" />
+
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/txvexample11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20sp"
+                    android:textStyle="italic" />
+
+                <LinearLayout
+
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:id="@+id/txvexample2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                    <ImageButton
+                        android:layout_weight="1"
+                        android:id="@+id/btnspeakex2"
+                        android:layout_gravity="bottom"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorBlueDark"
+                        android:src="@drawable/ic_volume_up_white_24dp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/txvexample21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20sp"
+                    android:textStyle="italic" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:id="@+id/txvexample3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <ImageButton
+                        android:layout_weight="1"
+                        android:id="@+id/btnspeakex3"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@color/colorBlueDark"
+                        android:src="@drawable/ic_volume_up_white_24dp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/txvexample31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20sp"
+                    android:textStyle="italic" />
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:id="@+id/txvexample4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                    <ImageButton
+                        android:layout_weight="1"
+                        android:id="@+id/btnspeakex4"
+                        android:layout_gravity="bottom"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorBlueDark"
+                        android:src="@drawable/ic_volume_up_white_24dp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/txvexample41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20sp"
+                    android:textStyle="italic" />
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:id="@+id/txvexample5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                    <ImageButton
+                        android:layout_weight="1"
+                        android:id="@+id/btnspeakex5"
+                        android:layout_gravity="bottom"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorBlueDark"
+                        android:src="@drawable/ic_volume_up_white_24dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/txvexample51"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+    </android.support.v7.widget.CardView>
+

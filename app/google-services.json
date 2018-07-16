@@ -1,0 +1,115 @@
+{
+  "project_info": {
+    "project_number": "248579866201",
+    "firebase_url": "https://englishapp-91e0f.firebaseio.com",
+    "project_id": "englishapp-91e0f",
+    "storage_bucket": "englishapp-91e0f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248579866201:android:d9b644a66fb26170",
+        "android_client_info": {
+          "package_name": "com.trunghi.dangtrung.englishfaster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "248579866201-j7ciku1af4r1ts864l4auk6m19pc33ne.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.trunghi.dangtrung.englishfaster",
+            "certificate_hash": "2abaf0fb43f4d901f589598e9a91e0c4b4ff99a0"
+          }
+        },
+        {
+          "client_id": "248579866201-p1n94mg82npugisjaitdrfn3d4atulqo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.trunghi.dangtrung.englishfaster",
+            "certificate_hash": "279f384560eecbb6448d9b84cc7786c8b4cef6a4"
+          }
+        },
+        {
+          "client_id": "248579866201-d4e2gbp8l107adop15nho0l5atgcjfpi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.trunghi.dangtrung.englishfaster",
+            "certificate_hash": "4615de7da561e020826f2be459a600b0c6596709"
+          }
+        },
+        {
+          "client_id": "248579866201-beajh1ga1lnj7lsrdok9aa3p8r66blca.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgHgnGFMzZVNEtREJ8rqdCu_reX69nzfo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "248579866201-beajh1ga1lnj7lsrdok9aa3p8r66blca.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248579866201:android:b515a100e878f7a3",
+        "android_client_info": {
+          "package_name": "com.trunghi.dangtrung.vivulearningenglish"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "248579866201-m7g4t8pspl1nm55216hc8a0sp5jseqp8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.trunghi.dangtrung.vivulearningenglish",
+            "certificate_hash": "2abaf0fb43f4d901f589598e9a91e0c4b4ff99a0"
+          }
+        },
+        {
+          "client_id": "248579866201-beajh1ga1lnj7lsrdok9aa3p8r66blca.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgHgnGFMzZVNEtREJ8rqdCu_reX69nzfo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "248579866201-beajh1ga1lnj7lsrdok9aa3p8r66blca.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Tiếng Anh ViVu</string>
+    <string name="app_namescreen">Tiếng Anh ViVu</string>
+    <string name="helloyou">Hello, You!</string>
+    <string name="learn">Học</string>
+    <string name="practice">Luyện tập</string>
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+    <string name="Setting">Cài đặt</string>
+    <string name="rate">Đánh giá app</string>
+    <string name="gachchanmore"><u>more</u></string>
+    <string name="home">Home</string>
+    <string name="methodlearn">Phương pháp học lặp cách đoạn</string>
+    <string name="guide">Hướng dẫn học tiếng anh
+        ghi nhớ nhanh từ vựng</string>
+    <string name="guidelearn">Giới thiệu &amp; Hướng dẫn cách học</string>
+
+
+</resources>
